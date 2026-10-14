@@ -8,3 +8,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
+  say-hello-tow:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: printf("fuck you")

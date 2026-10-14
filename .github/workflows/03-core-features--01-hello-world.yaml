@@ -12,3 +12,9 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - run: printf("fuck you")
+        shell: bash
+  use-python:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: print("hello from python")
+        shell: python
